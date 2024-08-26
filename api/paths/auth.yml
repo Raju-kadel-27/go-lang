@@ -26,7 +26,7 @@ paths:
         - Bearer: []
       description: |-
         After successful password change, all current access and refresh tokens are
-        invalidated and a new set of auth tokens is returned
+        invalidated and a new set of auth token is returned
       tags:
         - auth
       summary: Change local user's password
