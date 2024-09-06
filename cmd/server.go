@@ -28,7 +28,7 @@ const (
 var serverCmd = &cobra.Command{
 	Use:   "server",
 	Short: "Starts the server",
-	Long: `Starts the stateless RESTful JSON server
+	//Long: `Starts the stateless RESTful JSON server
 
 Requires configuration through ENV and
 and a fully migrated PostgreSQL database.`,
