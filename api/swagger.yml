@@ -23,7 +23,7 @@ paths:
       tags:
       - common
       summary: Get healthy (liveness probe)
-      operationId: GetHealthyRoute
+      #operationId: GetHealthyRoute
       responses:
         "200":
           description: Ready.
